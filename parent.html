@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Rachna Educational Institutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Little Winners</h1>
+        <img src="/static/logo.jpeg" class="logo" >
+        <div class="navbar">
+            <ul class="navbar_ul">
+                <li class="navbar_li"><a href="home2.html">Home</a></li>
+                <li class="navbar_li"><a href="aboutUs.html">About Us</a></li>
+                <li class="navbar_li"><a href="parent.html">Parent Login</a></li>
+                <li class="navbar_li"><a href="contactUs.html">Contact US</a></li>
+                
+            </ul>
+        </div>
+    </header>
+    
+        <div class="container">
+            <a href="https://www.facebook.com/profile.php?id=100085184187740">
+            <img src="/static/parent.jpg" class="background-image medium-image" >
+            </a>
+            <a href="page2.html">
+            <img src="/static/poster.jpeg" class="background-image large-image" >
+            </a>
+            <div class="login-form">
+                <h2 class="parent">Little Winners</h2>  
+                <u><h1 class="parent">Parent Login </h1></u>
+                
+                
+                <form action="/login" method="post">
+                <div class="form-field1">
+                    <h2 class="parent"><label for="option1">Login</label></h2>
+                    <input type="radio" id="option1" name="option" value="Option 1"></div>
+                <div class="form-field1">
+                    <h2 class="parent"><label for="option2">Signup</label></h2>          
+                    <input type="radio" id="option2" name="option" value="Option 2"></div>
+                <div class="form-field">                
+                    <h2 class="parent"><label for="username">Username:</label></h2>
+                    <input type="text" id="username" name="username" required></div>
+                
+                <div class="form-field">
+                    <h2 class="parent"><label for="password">Password:</label></h2>
+                    <input type="password" id="password" name="password" required></div>
+                <br>
+                <input type="submit" value="Login/Signup">
+    
+    
+                </form>
+                <form action="/reset_password" method="post">
+                <!--<label for="USERNAME">Enter your username</label>
+                <input type="name" id="USERNAME" name="username" required>
+                <label for="New_password">Enter new password</label>
+                <input type="name" id="new_password" name="new_password" required>-->
+                <input type="submit" value="Reset Password">
+            </form>
+                
+            </div>
+            
+            
+            </div>
+           
+             
+      
+        
+  </body>
+  </html>
